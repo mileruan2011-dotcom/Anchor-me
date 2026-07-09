@@ -1,0 +1,12 @@
+{
+  "name": "Determination Anchor",
+  "short_name": "Anchor",
+  "description": "A local-first state-switching cockpit where every No gets an Anchor.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0c1222",
+  "theme_color": "#0c1222",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
