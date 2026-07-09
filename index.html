@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0c1222">
   <title>Determination Anchor</title>
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <div class="app-shell">
@@ -24,9 +24,7 @@
       <button class="tab" data-tab="anchor">Anchor Me</button>
       <button class="tab" data-tab="current">Current Anchor</button>
       <button class="tab" data-tab="bank">Activity Bank</button>
-      <button class="tab" data-tab="log">Switch Log</button>
-      <button class="tab" data-tab="stats">Stats</button>
-      <button class="tab" data-tab="data">Data</button>
+      <button class="tab" data-tab="data">About / Data</button>
     </nav>
 
     <main>
@@ -34,8 +32,6 @@
       <section id="anchor" class="panel"></section>
       <section id="current" class="panel"></section>
       <section id="bank" class="panel"></section>
-      <section id="log" class="panel"></section>
-      <section id="stats" class="panel"></section>
       <section id="data" class="panel"></section>
     </main>
   </div>
@@ -43,6 +39,6 @@
   <dialog id="switchDialog" class="modal"></dialog>
   <dialog id="activityDialog" class="modal"></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="app.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>
